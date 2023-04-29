@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Home as HomeIcon, SearchIcon, LibraryIcon } from 'lucide-react'
+import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,7 +40,38 @@ export default function Home() {
 
         </aside>
         <main className='flex-1 p-6'>
-          
+          <div className="flex items-center gap-3">
+            <button className="p-1 rounded-full bg-black/40">
+              <ChevronLeft />
+            </button>
+            <button className="p-1 rounded-full bg-black/40">
+              <ChevronRight />
+            </button>
+          </div>
+
+          <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4">
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+            <div className="bg-white/10 rounded">
+              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
+            </div>
+          </div>
+
         </main>
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-6'>

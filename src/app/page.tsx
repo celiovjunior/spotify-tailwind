@@ -49,7 +49,7 @@ export default function Home() {
             </button>
           </div>
 
-          <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
+          <h1 className='font-semibold text-3xl mt-10 mb-6'>Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4">
             <div className="bg-white/10 rounded">

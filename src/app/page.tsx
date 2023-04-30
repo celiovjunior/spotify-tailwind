@@ -49,27 +49,33 @@ export default function Home() {
             </button>
           </div>
 
-          <h1 className='font-semibold text-3xl mt-10 mb-6'>Good Afternoon</h1>
+          <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
-            <div className="bg-white/10 rounded">
-              <Image src="/cover.jpg" width={120} height={120} alt="Cover" />
-            </div>
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
+            <a href="#" className="bg-white/10 flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <strong>13th Floor Elevator</strong>
+            </a>
           </div>
 
         </main>

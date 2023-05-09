@@ -2,14 +2,15 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin']})
 
 export default function Home() {
-  return (
+  return 
     <div className="h-screen flex flex-col">
       <div className='flex flex-1'>
         <aside className='w-72 bg-zinc-950 p-6'>
           <div className='flex items-center gap-2'>
+
             <div className='w-3 h-3 bg-red-500 rounded-full'></div>
             <div className='w-3 h-3 bg-yellow-500 rounded-full'></div>
             <div className='w-3 h-3 bg-green-500 rounded-full'></div>
@@ -127,13 +128,12 @@ export default function Home() {
             </a>
           </div>
 
-
-
         </main>
       </div>
-      <footer className='bg-zinc-800 border-t border-zinc-700 p-6'>
-        footer
+      <footer className='bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between'>
+        <div></div>
+        <div></div>
+        <div></div>
       </footer>
     </div>
-  )
 }

@@ -100,24 +100,35 @@ export default function Home() {
 
           <h2 className='font-semibold text-2xl mt-10'>Made for Célio Júnior</h2>
           <div className='grid grid-cols-5 gap-4 mt-4'>
-            <div className='bg-white/5 p-2 rounded'>
+            <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded hover:bg-white/10'>
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
-            </div>
-            <div className='bg-white/5 p-2 rounded'>
+              <strong className='font-semibold'>Daily Mix 1</strong>
+              <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
+            </a>
+            <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
-            </div>
-            <div className='bg-white/5 p-2 rounded'>
+              <strong className='font-semibold'>Daily Mix 1</strong>
+              <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
+            </a>
+            <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
-            </div>
-            <div className='bg-white/5 p-2 rounded'>
+              <strong className='font-semibold'>Daily Mix 1</strong>
+              <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
+            </a>
+            <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
-            </div>
-            <div className='bg-white/5 p-2 rounded'>
+              <strong className='font-semibold'>Daily Mix 1</strong>
+              <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
+            </a>
+            <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
-            </div>
+              <strong className='font-semibold'>Daily Mix 1</strong>
+              <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
+            </a>
           </div>
 
-          
+
+
         </main>
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-6'>

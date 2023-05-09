@@ -116,6 +116,8 @@ export default function Home() {
               <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
             </div>
           </div>
+
+          
         </main>
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-6'>

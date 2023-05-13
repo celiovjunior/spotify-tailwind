@@ -5,7 +5,7 @@ import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight, P
 const inter = Inter({ subsets: ['latin']})
 
 export default function Home() {
-  return 
+  return (
     <div className="h-screen flex flex-col">
       <div className='flex flex-1'>
         <aside className='w-72 bg-zinc-950 p-6'>
@@ -136,4 +136,5 @@ export default function Home() {
         <div></div>
       </footer>
     </div>
+  )
 }

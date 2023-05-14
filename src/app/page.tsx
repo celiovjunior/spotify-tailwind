@@ -1,45 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize2, Maximize } from 'lucide-react'
-
-const inter = Inter({ subsets: ['latin']})
+import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
+import Sidebar from '@/components/Sidebar'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <div className='flex flex-1'>
-        <aside className='w-72 bg-zinc-950 p-6'>
-          <div className='flex items-center gap-2'>
-
-            <div className='w-3 h-3 bg-red-500 rounded-full'></div>
-            <div className='w-3 h-3 bg-yellow-500 rounded-full'></div>
-            <div className='w-3 h-3 bg-green-500 rounded-full'></div>
-
-          </div>
-          <nav className='space-y-5 mt-10'>
-            <a href="" className="flex items-center gap-3 text-s font-semibold text-zinc-200">
-              <HomeIcon />
-              Home
-            </a>
-            <a href="" className="flex items-center gap-3 text-s font-semibold text-zinc-200">
-              <SearchIcon />
-              Search
-            </a>
-            <a href="" className="flex items-center gap-3 text-s font-semibold text-zinc-200">
-              <LibraryIcon />
-              Your Library
-            </a>
-          </nav>
-
-          <nav className='mt-6 pt-10 border-t border-zinc-800 flex flex-col gap-2'>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 ">Work out playlist</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 ">Traveling</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 ">Drive at night</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 ">Brazilian tropicalia</a>
-            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100 ">English podcast</a>
-          </nav>
-
-        </aside>
+        <Sidebar />
         <main className='flex-1 p-6'>
           <div className="flex items-center gap-3">
             <button className="p-1 rounded-full bg-black/40">
@@ -130,45 +99,7 @@ export default function Home() {
 
         </main>
       </div>
-      <footer className='bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between'>
-        <div className='flex items-center gap-3'>
-          <Image src="/cover.jpg" width={56} height={56} alt="Cover" />
-          <div className='flex flex-col'>
-            <strong className='font-normal'>Music Name</strong>
-            <span className="text-xs text-zinc-400">Artist Name</span>
-          </div>
-        </div>
-        <div className="flex flex-col items-center gap-2">
-          <div className='flex items-center gap-3'>
-            <Shuffle className='text-zinc-200' size={20} />
-            <SkipBack className='text-zinc-200' size={20} />
-            <button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black ml-auto'>
-              <Play />
-            </button>
-            <SkipForward className='text-zinc-200' size={20} />
-            <Repeat className='text-zinc-200' size={20} />
-          </div>
-          <div className='flex items-center gap-2'>
-            <span className='text-xs text-zinc-400'>0:22</span>
-              <div className='h-1 rounded-full w-96 bg-zinc-600'>
-                <div className='bg-zinc-200 w-40 h-1 rounded-full'></div>
-              </div>
-            <span className='text-xs text-zinc-400'>2:49</span>
-          </div>
-        </div>
-        <div className='flex items-center gap-4'>
-          <Mic2 size={20} />
-          <LayoutList size={20} />
-          <Laptop2 size={20} />
-          <div className='flex items-center gap-2'>
-            <Volume size={20} />
-            <div className='h-1 rounded-full w-24 bg-zinc-600'>
-              <div className='bg-zinc-200 w-10 h-1 rounded-full'></div>
-            </div>
-          </div>
-          <Maximize2 size={20} />
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react'
+import { Home as HomeIcon, SearchIcon, LibraryIcon, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat } from 'lucide-react'
 
 const inter = Inter({ subsets: ['latin']})
 
@@ -131,8 +131,25 @@ export default function Home() {
         </main>
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between'>
-        <div></div>
-        <div></div>
+        <div>
+          <Image src="/cover.jpg" width={56} height={56} alt="Cover" />
+          <div className='flex flex-col'>
+            <strong className='font-normal'>Music Name</strong>
+            <span className="text-xs text-zinc-400">Artist Name</span>
+          </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className='flex items-center gap-3'>
+            <Shuffle />
+            <SkipBack />
+            <button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black ml-auto'>
+              <Play />
+            </button>
+            <SkipForward />
+            <Repeat />
+          </div>
+
+        </div>
         <div></div>
       </footer>
     </div>

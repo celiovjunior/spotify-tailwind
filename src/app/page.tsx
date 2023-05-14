@@ -23,7 +23,7 @@ export default function Home() {
 
           <div className="grid grid-cols-3 gap-4 mt-4">
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
 
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
@@ -32,35 +32,35 @@ export default function Home() {
 
             </a>
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/10 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
-              <Image src="/cover.jpg" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={104} height={104} alt="Cover" />
               <strong>13th Floor Elevator</strong>
               <button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
@@ -71,27 +71,27 @@ export default function Home() {
           <h2 className='font-semibold text-2xl mt-10'>Made for Célio Júnior</h2>
           <div className='grid grid-cols-5 gap-4 mt-4'>
             <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded hover:bg-white/10'>
-              <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" className="w-full" width={104} height={104} alt="Cover" />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
             </a>
             <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" className="w-full" width={104} height={104} alt="Cover" />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
             </a>
             <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" className="w-full" width={104} height={104} alt="Cover" />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
             </a>
             <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" className="w-full" width={104} height={104} alt="Cover" />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
             </a>
             <a href="#" className='flex flex-col gap-2 bg-white/5 p-3 rounded-md hover:bg-white/10'>
-              <Image src="/cover.jpg" className="w-full" width={104} height={104} alt="Cover" />
+              <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" className="w-full" width={104} height={104} alt="Cover" />
               <strong className='font-semibold'>Daily Mix 1</strong>
               <span className='text-sm text-zinc-400'>Chico Science, Beyoncé, Heavy Baile and more</span>
             </a>

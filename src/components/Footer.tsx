@@ -11,7 +11,7 @@ export default function Footer() {
   return(
     <footer className='bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between'>
     <div className='flex items-center gap-3'>
-      <Image src="/cover.jpg" width={56} height={56} alt="Cover" />
+      <Image src="https://th.bing.com/th/id/OIP.64KElBN_xJ_8yM8WLAB7VwHaHa?pid=ImgDet&rs=1" width={56} height={56} alt="Cover" />
       <div className='flex flex-col'>
         <strong className='font-normal'>Music Name</strong>
         <span className="text-xs text-zinc-400">Artist Name</span>
